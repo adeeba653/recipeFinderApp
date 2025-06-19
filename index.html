@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeFinder</title>
+    <link rel="shortcut icon" href="./public/ramen.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="content">
+        <section id="navbar">
+            <ul class="navbar">
+                <li class="logo">
+                    <img src="./public/ramen.png" alt="Site Logo" />
+                </li>
+                <li class="tab navbar-left" id="homeTab"><a href="/">RecipeFinder</a></li>
+                <li class="tab" id="randomTab"><a href="#random">Random</a></li>
+                <li class="tab"><a href="#">Meal Planner</a></li>
+                <li class="tab"><a href="#">Favourites</a></li>
+                <li class="tab" id="aboutTab"><a href="#about">About</a></li>
+            </ul>
+
+        </section>
+        <section id="about">
+            <h1>Who are We?</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa doloremque, quasi quidem inventore
+                blanditiis eum, tempora aliquid sed, veritatis deleniti reiciendis error vitae facere quo veniam. Sit,
+                expedita sapiente. Maxime!
+                Maiores quo ipsum quam natus, cum corporis sed dolores consequatur tenetur modi? Sit libero quia ducimus
+                suscipit omnis. Mollitia corporis alias rerum quae pariatur iste voluptate tempora, porro explicabo
+                voluptatem?
+                Doloremque voluptatem officia nihil tempore ipsam, voluptates debitis odio? Ratione ad eligendi esse
+                libero. Unde saepe consequuntur delectus pariatur, sunt illo harum soluta inventore corrupti magnam
+                officiis tempore earum exercitationem.
+                Repellat corrupti quod voluptatum optio. Porro voluptatum placeat nam deleniti libero nostrum facilis
+                magni optio harum, odio ut. Tempore odit illo earum natus optio voluptatem dicta nisi dolore blanditiis.
+                In.
+                Exercitationem iste eligendi ratione molestias aliquid, voluptatem tempora? Molestiae blanditiis numquam
+                reprehenderit laboriosam est provident placeat velit dolores deleniti nobis, harum ratione nemo labore
+                similique nisi odit, impedit atque unde!</p>
+        </section>
+
+
+
+        <section id="main">
+            <section id="searchby">
+                <button id="searchbyname">Search by Name</button>
+                <button id="searchbyarea">Search by Area</button>
+                <button id="searchbyingred">Search by Ingredient</button>
+            </section>
+            <section id="byname">
+
+                <!--  search meal by name -->
+                <form id="byname_search">
+                    <input type="text" name="searchInput" placeholder="Browse by meal ...">
+                    <button type="submit"></button>
+                </form>
+
+                <br>
+
+                <article id="byname_results">
+                    <div class="mealGrid"></div>
+                </article>
+
+
+            </section>
+
+
+
+
+            <section id="byarea">
+
+                <!--  search meal by area -->
+                <form id="byarea_search">
+                    <input type="text" name="searchInput" placeholder="Browse by area...">
+                    <button type="submit"></button>
+                </form>
+
+                <br>
+
+                <article id="byarea_results">
+                    <div class="mealGrid"></div>
+                </article>
+
+
+
+            </section>
+
+
+            <section id="byingred">
+
+
+                <!--  search meal by ingredient -->
+                <form id="byingred_search">
+                    <input type="text" name="searchInput" placeholder="Browse by ingredient...">
+                    <button type="submit"></button>
+                </form>
+
+                <br>
+
+                <article id="byingred_results">
+                    <div class="mealGrid"></div>
+                </article>
+
+
+
+            </section>
+
+
+        </section>
+
+        <section id="randomDiv">
+            <h1>Generate Random Recipe</h1>
+            <button id="generateRandom">Surprise me!</button>
+            <div id="randomRecipe"></div>
+        </section>
+
+
+        <footer>
+
+        </footer>
+    </section>
+
+    <script src="script.js "></script>
+
+</body>
+
+
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+Recipe finder app
+
+-using api from "The Meal DB"
+
+functionalities
+
+1. search recipe by "name"
+ - display matched meal image along with name 
+ - on clicking a particular meal card, show details like, place of origin, the list of ingredients, step-by-step procedure and the youtube video(provided in the api) to follow etc..
+2. click on "Surprise me!" button to generate random meal recipes
+3. search meals by "main ingredient", "area" or "category"
+4. save favourite meals in "my favourites" tab
+5. dark mode toggle
+6. weekly meal planner - let users add meals to a weekly planner in "My meal Plan" tab
